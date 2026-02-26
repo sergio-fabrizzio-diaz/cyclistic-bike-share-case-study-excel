@@ -61,3 +61,6 @@ A new column was created to categorize valid and invalid rides, by using the fun
  "Valid",
  "Invalid"
 )
+
+A column named day_of_week was created to get the day of the week that each ride started by using the =WEEKDAY() function for further analysis, where the returned value corresponds for 1 = Sunday and 7 = Saturday:
+
