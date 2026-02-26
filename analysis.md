@@ -39,4 +39,4 @@ As a result, individual riders cannot be identified, and certain analyses are ou
 
 A "ride_length" column was created, which calculated the duration of every ride by substracting the column started_at from the column ended_at, and formated as [hh]:mm:ss This format allow us to see the time accumulated for rides with more than 24 hours.
 
-![](images/Cálculo ride_length.png)
+![](images/calculo_ride_length.png)
