@@ -40,3 +40,8 @@ As a result, individual riders cannot be identified, and certain analyses are ou
 A "ride_length" column was created, which calculated the duration of every ride by substracting the column started_at from the column ended_at, and formated as [hh]:mm:ss This format allow us to see the time accumulated for rides with more than 24 hours.
 
 ![](images/calculo_ride_length.png)
+
+By checking the new column created, it was realized that there were a considerable number of rides where the time of the ride reflected durations of days, weeks, and months; small values for the rides like just a couple of seconds, or even negative values when the ended time of the ride was earlier than the started time. Based on that, those rides were considered as "unreal" or "invalid" rides which could affect negatively the process of analysis.
+
+A way to solve this was to delimeter the range of valid rides by setting a minimum and a maximum of ride_length. In order to do this, the hours, minutes and seconds were gotten from the new column ride_length, by using the functions =INT(ride_lenght column * 24) to get the hours, =MINUTE(ride_lenght column) to get the minutes, and =SECOND(ride_lenght column) to get the seconds, and placed in new columns named hours_legth, minutes_length, and seconds_length respectively.
+
