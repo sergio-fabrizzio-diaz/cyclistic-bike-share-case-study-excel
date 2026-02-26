@@ -103,3 +103,14 @@ Finally, a third pivot table and a bar chart were created to calculate the numbe
 * **Filter:** valid_ride
 
 ![](images/number_of_rides.jpg)
+
+### Share of Findings
+
+With the 3 bar charts created, we can easily visualize the information of the different usage of the bicycles for annual members and casual riders.
+
+#### * **Ride duration**
+
+The "Ride duration" chart shows the type of riders on the X axis, and the average of the rides length on the Y axis as shown below:
+
+![](images/grafico_ride_duration.jpg)
+
