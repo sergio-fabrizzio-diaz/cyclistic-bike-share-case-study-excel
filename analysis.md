@@ -88,4 +88,10 @@ First, a pivot table was created to focus on the average of the ride_length by m
 * **Values:** average of ride_length
 * **Filter:** valid_ride
 
-![](images/ride_length.png)
+![](images/promedio_ride_length.jpg)
+
+Then, a second pivot table and a bar chart were created to review the average of the ride_length by members and casual riders per day_of_week. This pivot table was set as follows:
+* **Rows:** day_of_week
+* **Columns:** member_casual
+* **Values:** average of ride_length
+* **Filter:** valid_ride
