@@ -64,3 +64,14 @@ A new column was created to categorize valid and invalid rides, by using the fun
 
 A column named day_of_week was created to get the day of the week that each ride started by using the =WEEKDAY() function for further analysis, where the returned value corresponds for 1 = Sunday and 7 = Saturday:
 
+![](images/calculo_day_of_week.png)
+
+### Data Analysis
+
+#### * Descriptive Analysis
+
+In a new sheet named "Descriptive Analysis" in the same project, a pivot table was created to get a better sense of the data layout. Here, the pivot table was set in the next way:
+* **Rows:** member_casual
+* **Values:** average of ride_length, maximum of ride_length and minimum of ride_length
+* **Filter:** valid_ride
+
