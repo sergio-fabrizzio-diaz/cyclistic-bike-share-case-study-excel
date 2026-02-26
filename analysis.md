@@ -137,3 +137,46 @@ Therefore, conversion strategies should focus on incentivizing repeat visits rat
 The "Number of rides" chart presents the day of the week on the X axis with Sunday = 1 and Saturday = 7, and on the Y axis is presented the count of the unique rides' id that represents the total number of rides for each type of cyclist:
 
 ![](images/grafico_number_of_rides.jpg)
+
+**Key findings:**
+The difference between the two segments lies not in the intensity of use, but in the frequency.
+
+Members generate a higher volume of trips due to their recurring and functional use, while casual users make fewer but longer trips, often associated with recreational activities.
+
+### Strategic Recommendations
+
+**Focus on Increasing Frequency, Not Duration**
+
+Since casual riders already demonstrate long ride durations, the strategic opportunity lies in encouraging repeat usage.
+
+Recommended actions:
+
+* Offer discounts for a second ride within the same week.
+* Implement a loyalty or points program based on ride frequency.
+* Provide flexible weekend membership plans.
+
+**Develop Recreational-Oriented Membership Options**
+
+Create membership models tailored to casual behavior, such as:
+
+* “Weekend Pass” subscription plans
+* Low-cost monthly flexible memberships
+* Tourist or family ride packages
+
+**Behavior-Based Targeted Marketing**
+
+Leverage ride data to:
+
+* Identify high-duration weekend casual riders.
+* Send personalized promotions.
+* Show potential cost savings if they converted to membership.
+
+**Reframe Marketing Messaging**
+
+Highlight cumulative savings and convenience benefits.
+
+Instead of promoting:
+*“Ride longer.”*
+
+Focus on:
+*“Save more when you ride regularly.”*
