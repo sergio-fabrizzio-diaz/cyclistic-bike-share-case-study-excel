@@ -75,3 +75,17 @@ In a new sheet named "Descriptive Analysis" in the same project, a pivot table w
 * **Values:** average of ride_length, maximum of ride_length and minimum of ride_length
 * **Filter:** valid_ride
 
+![](images/descriptive_analysis.png)
+
+From this first look, we can see that casual riders use more time the bicycles than annual members, which can be a sign that casual riders used of bicycles is for tourism purposes. A deeper analysis is still needed to get more insights of casual and member riders usage of the bicycles.
+
+#### * Summarized Data
+
+A new sheet named "Summarized data" was created in order to create new pivot tables and get deeper insights from the data. 
+
+First, a pivot table was created to focus on the average of the ride_length by members and casual riders, and visualized with a bar chart. For this, the pivot table was set as follows:
+* **Rows:** member_casual
+* **Values:** average of ride_length
+* **Filter:** valid_ride
+
+![](images/ride_length.png)
