@@ -124,3 +124,14 @@ The "Ride duration per day of week" chart shows the day of the week on the X axi
 
 ![](images/grafico_ride_dur_week.jpg)
 
+**Key findings:**
+Analysis of average trip duration per day of the week reveals that casual riders have significantly longer trip times than members on all days. While members exhibit a stable and consistent pattern, casual users show slight variations with increases toward the weekend.
+
+This behavior suggests that members use the service as a regular means of transportation, while casual users employ it for recreational purposes, especially on weekends.
+
+Therefore, conversion strategies should focus on incentivizing repeat visits rather than increasing usage duration.
+
+#### * **Number of rides**
+The "Number of rides" chart presents the day of the week on the X axis with Sunday = 1 and Saturday = 7, and on the Y axis is presented the count of the unique rides' id that represents the total number of rides for each type of cyclist:
+
+![](images/grafico_number_of_rides.jpg)
