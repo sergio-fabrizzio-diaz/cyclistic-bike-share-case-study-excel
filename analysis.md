@@ -95,3 +95,11 @@ Then, a second pivot table and a bar chart were created to review the average of
 * **Columns:** member_casual
 * **Values:** average of ride_length
 * **Filter:** valid_ride
+
+Finally, a third pivot table and a bar chart were created to calculate the number of rides for members and casual riders by day_of_week by counting each ride_id as follows:
+* **Rows:** day_of_week
+* **Columns:** member_casual
+* **Values:** count of ride_id
+* **Filter:** valid_ride
+
+![](images/number_of_rides.jpg)
