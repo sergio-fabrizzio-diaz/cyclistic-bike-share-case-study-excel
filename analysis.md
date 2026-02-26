@@ -1,6 +1,6 @@
 ## Bike Sharing Case Study – Excel
 
-![](images/Portada.png)
+<img src= "images/Portada.png" width="400">
 
 *Exploratory analysis and business insights using Microsoft Excel.*
 
