@@ -1,5 +1,7 @@
 ## Bike Sharing Case Study – Excel
 
+![](images/Portada.png)
+
 *Exploratory analysis and business insights using Microsoft Excel.*
 
 ### Introduction
