@@ -45,3 +45,19 @@ By checking the new column created, it was realized that there were a considerab
 
 A way to solve this was to delimeter the range of valid rides by setting a minimum and a maximum of ride_length. In order to do this, the hours, minutes and seconds were gotten from the new column ride_length, by using the functions =INT(ride_lenght column * 24) to get the hours, =MINUTE(ride_lenght column) to get the minutes, and =SECOND(ride_lenght column) to get the seconds, and placed in new columns named hours_legth, minutes_length, and seconds_length respectively.
 
+![](images/calculo_tiempos.png)
+
+With these 3 new columns, delimeters of time for the rides can be set to get a better analysis. The delimeters for a valid ride were: 
+* **Minimum:** ride_lenght >= 1 minute
+* **Maximum:** ride_lenght < 24 hours
+
+A new column was created to categorize valid and invalid rides, by using the functions =IF() and =AND():
+
+=IF(
+ AND(
+   hours_length * 3600 + minutes_length * 60 + seconds_length >= 60,
+   hours_length * 3600 + minutes_length * 60 + seconds_length < 86400
+ ),
+ "Valid",
+ "Invalid"
+)
