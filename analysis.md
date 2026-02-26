@@ -136,7 +136,7 @@ Therefore, conversion strategies should focus on incentivizing repeat visits rat
 #### * **Number of rides**
 The "Number of rides" chart presents the day of the week on the X axis with Sunday = 1 and Saturday = 7, and on the Y axis is presented the count of the unique rides' id that represents the total number of rides for each type of cyclist:
 
-![](images/grafico_number_of_rides.jpg)
+![](images/graf_number_of_rides.jpg)
 
 **Key findings:**
 The difference between the two segments lies not in the intensity of use, but in the frequency.
