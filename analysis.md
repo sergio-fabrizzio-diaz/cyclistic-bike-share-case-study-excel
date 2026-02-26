@@ -114,3 +114,13 @@ The "Ride duration" chart shows the type of riders on the X axis, and the averag
 
 ![](images/grafico_ride_duration.jpg)
 
+**Key findings:**
+The analysis shows that casual riders have a significantly longer average trip duration than members (approximately 40 minutes versus 15 minutes). This pattern suggests that casual users utilize the service for recreational or tourism purposes, while members primarily use it as a functional means of transportation for short, recurring trips.
+
+This difference in behavior indicates that conversion strategies should focus not only on price but also on communicating benefits associated with frequency of use and daily convenience.
+
+#### * **Ride duration per day of week**
+The "Ride duration per day of week" chart shows the day of the week on the X axis with Sunday = 1 and Saturday = 7, and the average of the rides length on the Y axis for both type of riders as shown below:
+
+![](images/grafico_ride_dur_week.jpg)
+
